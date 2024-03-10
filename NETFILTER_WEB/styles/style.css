@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 60%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 1px 1px 8px black;
+    border-radius: 5px;
+}
+
+.left{
+    background: url("../assets/N1-0581-Firewalls-blog-image.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right form{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.input-control{
+    width: 20%;
+    height: 30px;
+}
+
+.input-control input{
+    padding: 1vw;
+}
+
+form button{
+    padding: 8px 30px;
+    background: transparent;
+    outline:none;
+    border:1px solid #333;
+}
+
+form button:hover{
+    background-color: #333;
+    color: #fff;    
+}
+
+
+
+
+
